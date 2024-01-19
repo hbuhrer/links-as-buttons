@@ -31,18 +31,18 @@ main {
   }
 
 a {
-    color: #fff; /* Adjust text color for better contrast */
+    color: #fff;
     text-decoration: none;
-    padding: 12px 24px; /* Increase padding for a more button-like appearance */
-    border: none; /* Remove border for a cleaner look */
+    padding: 12px 24px;
+    border: none;
     border-radius: 5px;
     display: inline-block;
-    background-color: #3498db; /* Set button background color */
-    transition: background-color 0.3s; /* Add transition for a smooth hover effect */
+    background-color: #3498db;
+    transition: background-color 0.3s;
 }
 
 a:hover {
-    background-color: #2980b9; /* Darker shade on hover */
+    background-color: #2980b9;
 }
 
 p {
