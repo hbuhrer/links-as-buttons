@@ -1,24 +1,92 @@
-/* Body text */
 body {
-
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: lightslategray;
 }
 
-/* Call-to-action container */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    flex: 1;
+  }
+
+a {
+    color: #fff; /* Adjust text color for better contrast */
+    text-decoration: none;
+    padding: 12px 24px; /* Increase padding for a more button-like appearance */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #3498db; /* Set button background color */
+    transition: background-color 0.3s; /* Add transition for a smooth hover effect */
+}
+
+a:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+p {
+    line-height: 1.5;
+    color: #000000;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
 .cta {
-
+    color: #333;
 }
 
-/* Call to Action "button" */
 .cta a, .cta a:visited {
-
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #3498db;
+    transition: background-color 0.3s;
 }
 
-/* Hover state */
 .cta a:hover {
+    color: #3498db;
+    background-color: white;
 
 }
 
-/* Click state */
 .cta a:active {
-
+    color: #333;
+    border-color: #333;
 }
+  
+.hero {
+    padding: 1rem;
+    background-color: #fff;
+    max-width: 90%;
+    margin: 1rem auto;
+}
+  
